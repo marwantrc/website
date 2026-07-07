@@ -1,0 +1,129 @@
+*{
+    font-family: "Handjet";
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: white;
+    aspect-ratio: 4 / 3;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 48px;
+}
+
+img{
+    image-rendering: pixelated;
+    height: 100%;
+}
+
+p, h1, h2, h4{
+    margin: 0;
+    width: fit-content;
+}
+
+h3{
+    margin: 0;
+    padding: 2px 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.info-1-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.name, .bio, .links{
+    border: 1px solid black;
+}
+
+.box{
+    width: fit-content;
+}
+
+.my-name{
+    font-size: 70pt;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 8px;
+    line-height: 0.9;
+    font-variation-settings: 
+        "ELGR" 2,
+        "ELSH" 16;
+}
+
+.bio{
+    width: fit-content;
+}
+
+.bio-inside{
+    padding: 12px;
+}
+
+.true-name{
+    font-size: 24pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-variation-settings: 
+        "ELGR" 1,
+        "ELSH" 9;
+}
+
+.little-bio{
+    width: 171px;
+}
+
+.existing-links{
+    padding: 16px;
+    border-bottom: 1px dashed black;
+}
+
+.future-links{
+    padding: 16px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    text-transform: uppercase;
+    margin: 4px 0;
+}
+
+.future-links ul{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
