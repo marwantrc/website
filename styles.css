@@ -33,15 +33,18 @@ main {
 
 .container {
     width: 60%;
+    height: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    column-gap: 20%;
 }
 
 .info {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 50%;
 }
 
 .info-1-container {
