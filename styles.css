@@ -94,6 +94,10 @@ h3 {
 }
 
 /* navigation & liens */
+.links{
+    max-width: 200px;
+}
+
 .existing-links {
     padding: 16px;
     border-bottom: 1px dashed black;
@@ -109,11 +113,11 @@ h3 {
     padding: 16px;
     display: flex;
     flex-direction: column;
-    row-gap: 12px;
+    row-gap: 6px;
 }
 
 .future-links li{
-    padding: 4px;
+    padding: 0 8px;
     font-style: italic;
     text-transform: uppercase;
     color: rgb(136, 136, 136);
@@ -126,7 +130,8 @@ ul{
 
 .future-links ul {
     display: flex;
-    column-gap: 10px;
+    column-gap: 4px;
+    row-gap: 4px;
     flex-wrap: wrap;
 }
 
@@ -135,9 +140,9 @@ ul{
     text-decoration: none;
     text-transform: uppercase;
     transform-origin: center left;
-    padding: 4px 0;
-    transition-property: transform, font-weight, font-variation-settings;
-    transition-duration: 0.5s;
+    padding: 2px 0;
+    transition-property: transform, font-weight, background-color, color;
+    transition-duration: 0.2s;
     transition-delay: 0s;
 }
 
@@ -158,14 +163,14 @@ img.avatar{
     width: 500px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%);
     z-index: 0;
 }
 
 /*effets*/
 
-.blur {
+/*.blur {
   box-shadow:
     0 0 0 1px #FFFFFF,
     0 0 0 4px #000000,
