@@ -33,6 +33,7 @@ main {
 
 .container {
     width: 80%;
+    max-width: 900px;
     height: 40%;
     display: flex;
     justify-content: space-between;
@@ -87,6 +88,7 @@ h3 {
     font-weight: 600;
     text-transform: uppercase;
     font-variation-settings: "ELGR" 1, "ELSH" 9;
+    white-space: nowrap ;
 }
 
 .little-bio {
@@ -94,7 +96,7 @@ h3 {
 }
 
 /* navigation & liens */
-.links{
+.box{
     max-width: 200px;
 }
 
@@ -176,4 +178,45 @@ img.avatar{
     0 0 0 4px #000000,
     0 0 0 5px #C3DAFE,
     0 0 0 6px #ffffff;
+}*/
+
+@media (max-width: 840px) {
+
+    body{
+        height: 100dvh;
+    }
+
+    main{
+        align-items: center;
+    }
+
+    .container{
+        height: fit-content;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .info{
+        flex-direction: column;
+        row-gap: 16px;
+        max-width: 200px;
+    }
+
+    .avatar{
+        display: none;
+    }
+
+    .info-1-container{
+        width: 100%;
+    }
+
+    .box{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .existing-links a{
+        padding: 2px 0;
+        font-size: 16pt;
+    }
 }
