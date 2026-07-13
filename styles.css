@@ -99,7 +99,6 @@ h3 {
 
 /* navigation & liens */
 .box{
-.box{
     max-width: 200px;
 }
 
@@ -222,4 +221,5 @@ img.avatar{
         padding: 2px 0;
         font-size: 16pt;
     }
+
 }
