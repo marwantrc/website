@@ -184,8 +184,9 @@ img.avatar{
 
 @media (max-width: 840px) {
 
-    body{
-        height: 100dvh;
+    html, body {
+    overflow-x: hidden;
+    width: 100%;
     }
 
     main{
@@ -222,4 +223,7 @@ img.avatar{
         font-size: 16pt;
     }
 
+    .my-name{
+        font-size: 80pt;
+    }
 }
